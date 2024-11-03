@@ -1,0 +1,37 @@
+h2{
+    color:rgba(243, 133, 7, 0.807);
+}
+span{
+    color:rgb(221, 132, 59);
+}
+.outter{
+    
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    
+   
+}
+.inner{
+    height: auto;
+    width: 300px;
+    border:2px solid black;
+    border-radius: 25px;
+    margin:10px ;
+    padding: 10px;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+h3{
+    color:rgba(142, 24, 253, 0.952);
+}
+h1{
+    color:blueviolet;
+}
+@media(max-width:450px){
+    .outter{
+        flex-wrap: wrap;
+    }
+}

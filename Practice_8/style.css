@@ -1,0 +1,22 @@
+.box1{
+    height:300px ;
+    width:300px ;
+    border-radius: 50%;
+    border: 20px solid yellow;
+    border-top: 20px solid blue;
+    animation-name: cssLoader;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+
+
+@keyframes cssLoader{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+}
